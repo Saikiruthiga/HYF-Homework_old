@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+    <meta charset ="UTF-8">
+    <title>survey-form</title>
+    <link rel = "stylesheet" href= "surveystyles.css"/>
+  </head>
+  <body>
+     <h1 id ="title">Survey Form</h1>
+     <p id="description">Thank you for taking the time to help us improve the platform</p> 
+     <form id = "survey-form">
+       <fieldset>
+         <div class="container">
+       <label for = "name" id ="name-label">First Name <input id = "name" name = "name" type="text" required placeholder="Enter your name" /></label><br>
+       
+       <label for = "email" id = "email-label">Email <input id = "email" name = "name" type="email" required placeholder="Enter your email" /></label><br>
+       <label for = "number" id = "number-label">Number <input id = "number" name = "name" type="number" required placeholder="ph number" min="8" max="10" /></label>
+       </div>
+       </fieldset>
+      <fieldset>
+        <label for ="dropdown">What rating you will give for this platform?</label>
+          <select id = "dropdown" name ="dropdown">
+            <option value ="">Select an option</option>
+            <option value ="1">Good</option>
+            <option value ="2">Average</option>
+            <option value ="3">Poor</option>
+            </select>
+      </fieldset>
+      <fieldset>
+        <legend>Would you refer this platform to others?</legend>
+        <label for ="radio1"><input id="radio1" name="refer" type="radio" value = "definitely"checked />Definitely</label>
+        <label for ="radio2"><input id="radio2" name="refer" type="radio" value = "maybe"/>May be</label>
+        <label for="radio3"><input id="radio3" name="refer" type="radio"value = "notsure"/>Not Sure</label>
+      </fieldset>
+      <fieldset>
+        <p> What are all the courses you learned from this platform</p>
+    <label for = "option1"> <input type = "checkbox" id ="option1" name = "option1" value="chkbox1" />HTML</label><br>
+    <label for = "option2"> <input type = "checkbox" id ="option2" name="option2" value="chkbox2" />CSS</label><br>
+    <label for = "option3"> <input type = "checkbox" id ="option3" name="option3" value="chkbox3" />Javascript</label>
+     </fieldset>
+     <fieldset>
+       <label for ="comments"> Additional Comments
+         <textarea id="comments" name="comments" rows="3" cols="30"></textarea></label>
+         </fieldset>
+         <div class="sbtn">
+         <input type ="submit" id="submit" value="Submit"/></div>
+    </body>
