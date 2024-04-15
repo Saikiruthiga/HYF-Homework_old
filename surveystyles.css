@@ -1,0 +1,21 @@
+h1,p{
+    text-align:center;
+    margin:1em,auto;
+  }
+  .sbtn{
+    text-align:center;
+    margin-top:2rem;
+  }
+  body{
+    min-height: 100vh;
+    margin:15px auto;
+    width:30%;
+    background-color:rgb(0,0,100);
+    color:white;
+  }
+  .container{
+    display:flex;
+    align-items:center;
+    margin-bottom:0.5rem;
+    
+  }
